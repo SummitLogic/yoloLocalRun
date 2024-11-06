@@ -8,7 +8,7 @@ if torch.cuda.is_available():
     print(f"Training on GPU: {device_name}")
 
     # Load the YOLOv8 model
-    model = YOLO("yolov8n.yaml")  # build a new model from scratch
+    model = YOLO("yolo11s.yaml")  # build a new model from scratch
 
     # Train the model on the specified GPU
     results = model.train(data="data.yaml", epochs=100, device=0)
