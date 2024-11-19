@@ -5,7 +5,6 @@ from ultralytics import YOLO
 yolo = YOLO('best.pt')
 
 # Load the video capture
-# video_path = 'path_to_video.mp4'  # Replace with your video file path
 videoCap = cv2.VideoCapture(0)
 
 # Function to get class colors
