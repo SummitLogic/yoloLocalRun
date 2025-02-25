@@ -1,0 +1,3 @@
+[submodule "mergeYolo_datasets"]
+	path = mergeYolo_datasets
+	url = https://github.com/SoniDavid/mergeYolo
