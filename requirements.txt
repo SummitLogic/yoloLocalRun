@@ -1,1 +1,4 @@
 ultralytics==8.3.23
+torch
+onnxsim
+ultralytics
